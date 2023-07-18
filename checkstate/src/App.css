@@ -1,0 +1,26 @@
+.App {
+  text-align: center;
+
+}
+ .cards{
+  display:flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  border-radius: 2px;
+  row-gap:15px;
+  gap:10px;
+  width: 550px;
+  margin-top: 5px;
+  padding: 10px;
+  
+}.card{
+  background-color: rgb(200, 195, 209);
+  
+  
+} .cards img{
+  width: 200px;
+}.modal{
+  border: 5px solid red;
+  background-color: yellow;
+  box-shadow: 3px 3px 10px rgba(0 0 0 / 0.5);
+}
